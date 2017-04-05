@@ -31,10 +31,23 @@ public class ApplicationMain {
 		return a+b;
 	}
 	
+	@RequestMapping("/hello/{name}")
+	public String hello(@PathParam("name") String name){
+		return "hello "+ name;
+		
+		
+	}
+	@RequestMapping("/sayhello/{name}")
+	public Message hello2(@PathParam("name") String name){
+		return new Message("Hello "+name);
+		
+		
+	}
+	
 	//Homework : Query Param
 	
 	private List<MyBean> getFriends() {
-		List<MyBean> list = new ArrayList<>();
+		List<MyBean> list = new ArrayList<MyBean>();
 		list.add(new MyBean("A1", "B1", 111, null));
 		list.add(new MyBean("A2", "B2", 112, null));
 		list.add(new MyBean("A3", "B3", 113, null));
