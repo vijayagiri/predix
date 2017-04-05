@@ -1,0 +1,43 @@
+{
+	"name": "VaijayGiri",
+	"address": "Capgemini",
+	"contactNumber": 99052257,
+	"friends": [
+		{
+			"name": "A1",
+			"address": "B1",
+			"contactNumber": 111,
+			"friends": null
+		},
+		{
+			"name": "A2",
+			"address": "B2",
+			"contactNumber": 112,
+			"friends": null
+		},
+		{
+			"name": "A3",
+			"address": "B3",
+			"contactNumber": 113,
+			"friends": null
+		},
+		{
+			"name": "A4",
+			"address": "B4",
+			"contactNumber": 114,
+			"friends": null
+		},
+		{
+			"name": "A5",
+			"address": "B5",
+			"contactNumber": 115,
+			"friends": null
+		},
+		{
+			"name": "A6",
+			"address": "B6",
+			"contactNumber": 116,
+			"friends": null
+		}
+	]
+}
